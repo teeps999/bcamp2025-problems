@@ -14,10 +14,10 @@ function replace(str, charToReplace, strReplacement){
         if(str[i] === charToReplace){
             res += strReplacement;
     } else{
-        res += str[i];
+        res1 += str[i];
     }
  }
-return res;
+return res1;
 }
 // console.log(replace("hello","l", "ff"));
 
@@ -25,8 +25,12 @@ function strLengthEven(str1) {
     if (str1.length % 2 === 0) {
         return "even";
     } else {
-        return "not even";
+        return "odd";
     }
 }
 
-console.log(strLengthEven("hell"));
+// console.log(strLengthEven("hell"));
+function findRabbit(arr){
+return arr.indexOf("rabbit");
+}
+console.log(findRabbit(["cat","dog","seal","rabbit"]));
