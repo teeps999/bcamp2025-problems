@@ -12,7 +12,7 @@ function replace(str, charToReplace, strReplacement){
     let res1 ="";
     for(let i = 0; i< str.length; i+=1){
         if(str[i] === charToReplace){
-            res += strReplacement;
+            res1 += strReplacement;
     } else{
         res1 += str[i];
     }
