@@ -31,3 +31,4 @@ function getCount(str) {
   return res;
 }
 console.log(getCount("sArah"))
+
