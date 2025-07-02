@@ -70,3 +70,8 @@ function greet (name, owner) {
 }
 console.log(findShort("Hello Sam"))
 
+//QQ
+function retDog(w){
+  w= "Dog"
+}
+console.log(retDog())
