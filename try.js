@@ -32,3 +32,27 @@ function getCount(str) {
 }
 console.log(getCount("sArah"))
 
+// // Q
+function DNAtoRNA(dna) {
+  let result ="";
+  for (let i = 0; i < dna.length; i += 1) {
+ if(dna[i]=== "T"){
+result += "U";
+
+  } else {result += dna[i]
+  };
+    }
+     return result;
+}
+console.log(DNAtoRNA("UUU"))
+
+// Q
+function greet (name, owner) {
+  if (name === owner){
+    return "HI Boss";
+     } else { return "HI Guest"
+        };
+  }
+  console.log(greet("dorji","dorji"))
+
+
