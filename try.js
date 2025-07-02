@@ -71,7 +71,7 @@ function greet (name, owner) {
 console.log(findShort("Hello Sam"))
 
 //QQ
-function retDog(w){
-  w= "Dog"
+function retDog(){
+  return "Dog";
 }
 console.log(retDog())
