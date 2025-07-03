@@ -75,3 +75,28 @@ function retDog(){
   return "Dog";
 }
 console.log(retDog())
+//Q
+const stringToNumber = function(str){
+  return Number(str);
+}
+console.log(stringToNumber("14377"))
+
+function remExcm(str1){
+  res ="";
+  for(let i =0; i<str1.length; i++){
+    if(str1[i] !== "!"){
+      res+= str1[i];
+    }
+  }return res;
+
+}
+console.log(remExcm("hi"))
+function rowSumOddNumbers(n) {
+  return n * n * n;
+}
+
+console.log(rowSumOddNumbers(1)); // 1
+console.log(rowSumOddNumbers(2)); // 8
+console.log(rowSumOddNumbers(3)); // 27
+console.log(rowSumOddNumbers(4)); // 64
+console.log(rowSumOddNumbers(5)); // 125
